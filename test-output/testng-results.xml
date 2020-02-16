@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38255" started-at="2020-02-01T17:07:31 EST" finished-at="2020-02-01T17:08:10 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38255" started-at="2020-02-01T17:07:31 EST" finished-at="2020-02-01T17:08:10 EST">
+      <class name="automationpractise.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationpractise.test.HomePageTest@57855c9a]" name="setUp" is-config="true" duration-ms="33405" started-at="2020-02-01T17:07:34 EST" finished-at="2020-02-01T17:08:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createMessage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automationpractise.test.HomePageTest@57855c9a]" name="createMessage" duration-ms="2234" started-at="2020-02-01T17:08:07 EST" data-provider="getTestData" finished-at="2020-02-01T17:08:10 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainerjp4u@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[need to cancel order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMessage -->
+      </class> <!-- automationpractise.test.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
